@@ -7,3 +7,7 @@ los avances que se tengan en los distintos archivos de programación creados.
 
 Esperando no ser demasiado breve con el mensaje, doy gracias al lector por echarle un ojo al 
 documento.
+
+## Autor
+
+**Cristian Guillermo Mejia Cisneros**
