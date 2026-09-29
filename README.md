@@ -1,6 +1,6 @@
-#Mi Primer README
+# Mi Primer README
 
-##Contenido
+## Contenido
 
 En el siguiente **Repositorio** podrán ver el contenido de las prácticas hechas en Latex, así como
 los avances que se tengan en los distintos archivos de programación creados.
