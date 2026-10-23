@@ -3,10 +3,10 @@ public class CotizadorPines{
 	public static void main (String [] args){
 
 //Declaracion de varibales necesarias, segun el caso particular del programa.
-		int precioCliente1 =-12899;	
+		int precioCliente1 =12899;	
 		String cliente1 = "Robbie Valentino";
-		char estadoCumplimientoCliente1 = 'A';
-		int mesesPagoCliente1 = -21;
+		char estadoCumplimientoCliente1 = 'E';
+		int mesesPagoCliente1 = 21;
 		double intereses=0.0;
 
 
@@ -56,19 +56,17 @@ else {
 	System.out.println("Detalles:\n");
 
 		if(precioCliente1 < 0){
-			System.out.println("-Valor no válido para la cantidad necesitada de prestamo\n");
+			System.out.println("-Valor no valido para la cantidad necesitada de prestamo.\n");
 		}
 
 		if(mesesPagoCliente1 < 0){
-			System.out.println("-Meses no validos para el pago del prestamo\n");
+			System.out.println("-Meses no validos para el pago del prestamo.\n");
 		}
 		if(estadoCumplimientoCliente1 != 'E' ||  estadoCumplimientoCliente1 != 'P' || estadoCumplimientoCliente1 != 'R'){
-			System.out.println("-No se ingreso un estado del cliente valido\n");
+			System.out.println("-No se ingreso un estado del cliente valido.\n");
 		}
 	
 }
-
-
 
 
 
