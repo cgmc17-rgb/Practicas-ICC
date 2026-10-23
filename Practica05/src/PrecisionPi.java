@@ -7,7 +7,7 @@ public static void main (String [] args){
 	double abscisa;
 	double ordenada;
 	double distanciaAlOrigen;
-	double toleranciaDePrecision = 0.0000001;
+	double toleranciaDePrecision = 0.001;
 	double errorPi = toleranciaDePrecision;
 	double estimacionPi=0.0;
 
