@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 
-public class PiInteractivo {
+public class PiInteractivo{
 
 public static void main (String [] args){
 
@@ -21,16 +21,16 @@ System.out.println("Ingrese el numero de dardos a lanzar: \n");
 
 
 
-while (introducirEntero.hasNextInt() != true ){
+	while (introducirEntero.hasNextInt() != true ){
 		System.out.println("\nEl valor '" + introducirEntero.next()  + "' No es valido, es un caracter o double ingrese otro: \n");
-}
+    }
 
 dardosALanzar = introducirEntero.nextInt();
 
-while(dardosALanzar < 0){
-	System.out.println("\nEl valor '" + dardosALanzar + "' No es valido, es un caracter o double ingrese otro: \n");
-	dardosALanzar = introducirEntero.nextInt();
-}
+	while(dardosALanzar < 0){
+		System.out.println("\nEl valor '" + dardosALanzar + "' No es valido, es un entero negativo, ingrese otro: \n");
+		dardosALanzar = introducirEntero.nextInt();
+    }
 
 
 
