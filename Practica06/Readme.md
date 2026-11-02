@@ -1,4 +1,4 @@
-# Practica05
+# Practica06
 
 ## Contenido
 
@@ -20,7 +20,9 @@ Para ejecutar el *.class* desde la carpeta *Practica06*, basta con ejecutar *jav
 El usuario ingresa un dato como *10000* y el programa calcula Pi, tirando 10000 dardos en un tablero con medio circulo, devolviendo:
 
 Dardos Lanzados: 10000
+
 Dardos que cayeron dentro del circulo: 7861
+
 Estimacion de Pi: 3.144400
 
 Por poner un ejemplo
